@@ -37,10 +37,16 @@
 </repository>
 	</repositories>
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://34.208.218.12:8081/repository/sample-snapshots/</url>
-		 </snapshotRepository>
+		<repository>
+  <id>flm-feed</id>
+  <url>https://pkgs.dev.azure.com/vadlakondamadhu316/_packaging/flm-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
 		
 		<repository>
   <id>mydevops-feed</id>
