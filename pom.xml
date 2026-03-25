@@ -22,7 +22,18 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
-
+<repositories>
+	<repository>
+  <id>flm-feed</id>
+  <url>https://pkgs.dev.azure.com/vadlakondamadhu316/_packaging/flm-feed/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</repositories>
 	</dependencies>
 	<repositories>
 		<repository>
